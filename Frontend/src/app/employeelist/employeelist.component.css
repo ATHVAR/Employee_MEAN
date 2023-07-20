@@ -1,0 +1,50 @@
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid green;
+  }
+  
+  /* Style the table header */
+  .table th {
+    background-color: #41B883; 
+    color: #fff; 
+    padding: 12px;
+    text-align: center;
+    border: 1px solid green;
+  }
+  
+  /* Style alternating rows */
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  /* Style table data cells */
+  .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid green;
+  }
+  
+  /* Style the "Add Employee" button */
+  .text-center button {
+    background-color: #41B883; 
+    color: #fff; 
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .text-center button:hover {
+    background-color: #367B63; 
+  }
+  
+  /* Style the custom icons */
+  .custom-icon {
+    margin-right: 5px;
+  }
+  

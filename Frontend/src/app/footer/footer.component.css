@@ -1,0 +1,31 @@
+footer {
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Center the footer content horizontally
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style the copyright text */
+  /* footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }  */
+  
+  
+  
+  
+  
+  
+  
+  

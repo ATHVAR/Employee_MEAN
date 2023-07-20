@@ -1,0 +1,65 @@
+/* Apply styles to the entire navbar */
+.navbar {
+    background-color: #41B883; /* Green background color */
+    padding: 10px 0;
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .navbar-nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-nav li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 16px;
+    transition: color 0.2s ease;
+    padding: 5px 10px;
+  }
+  
+  .navbar-nav li a:hover {
+    color: #ddd; /* Lighter color on hover */
+    background-color: #367B63; /* Slightly darker background on hover */
+    border-radius: 5px;
+  }
+  
+  /* Style the active link */
+  .navbar-nav .active {
+    font-weight: bold;
+  }
+  
+  /* Style the navbar toggler icon */
+  .navbar-toggler-icon {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 3px;
+  }
+  
+  /* Center the navbar toggler icon vertically */
+  .navbar-toggler {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  /* Add some space between the toggler and the links on larger screens */
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+  
+  /* Ensure the links are aligned vertically on mobile */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .navbar-nav li {
+      margin: 10px 0;
+    }
+  }
+  

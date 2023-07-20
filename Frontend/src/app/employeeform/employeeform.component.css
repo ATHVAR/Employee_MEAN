@@ -1,16 +1,68 @@
-.container{
-    margin-top: 10px;
-    padding: 100px 100px;
-    color: white;
-}
-#submit{
-   margin-top: 20px;
-   font-weight: 600;
-}
-.form-group{
-   margin-top: 5px;
-}
-.form-container {
-   position: relative;
-   z-index: 1;
+/* Custom styles for the header */
+app-header {
+   background-color: #41B883; /* Green background color */
+   color: #fff; /* White text color */
+   padding: 10px;
+   text-align: center;
  }
+ 
+ /* Custom styles for the main container box */
+ .container.box {
+   margin-top: 30px;
+ }
+ 
+ /* Custom styles for the outer box containing the form */
+ .outer-box {
+   background-color: #367B63; /* Darker green background color */
+   padding: 20px;
+   border-radius: 10px;
+ }
+ 
+ /* Custom styles for the form heading */
+ .outer-box h2 {
+   font-size: 24px;
+ }
+ 
+ /* Custom styles for the form inputs */
+ .form-control {
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 16px;
+ }
+ 
+ /* Custom styles for alternate form inputs */
+ .decor1 {
+   background-color: #fff; /* White background */
+   color: #333; /* Dark text color */
+ }
+ 
+ .decor2 {
+   background-color: #f2f2f2; /* Light gray background */
+   color: #333; /* Dark text color */
+ }
+ 
+ /* Custom styles for the form error messages */
+ .text-danger {
+   display: block;
+   font-size: 12px;
+   color: #ff3333; /* Red text color */
+   margin-top: 5px;
+ }
+ 
+ /* Custom styles for the submit button */
+ .btn {
+   background-color: #41B883; /* Green background color */
+   color: #fff; /* White text color */
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+ }
+ 
+ .btn:hover {
+   background-color: #367B63; /* Slightly darker background on hover */
+ }
+ 
