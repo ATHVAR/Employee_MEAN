@@ -5,8 +5,8 @@ const ConnectionString = process.env.mongodb_url;
 
 mongoose.connect(ConnectionString)
 .then(()=>{
-    console.log(`Connection to Database established`);
+    console.log(`Connection to MongoDB Atlas`);
 })
 .catch((error)=>{
-    console.log(`Error in connecting to database ${error.message}`)
+    console.log(`Error in connecting MongoDB ${error.message}`)
 })

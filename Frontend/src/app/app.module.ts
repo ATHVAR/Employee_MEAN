@@ -19,6 +19,7 @@ import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { TokeninterceptorService } from './tokeninterceptor.service';
 import { Header2Component } from './header2/header2.component';
+import { AuthguardserviceService } from './authguardservice.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { Header2Component } from './header2/header2.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [EmployeeserviceService,AuthserviceService,BackendserviceService, {
+  providers: [BackendserviceService,AuthserviceService, AuthguardserviceService,{
     provide:HTTP_INTERCEPTORS,
     useClass:TokeninterceptorService,
     multi:true

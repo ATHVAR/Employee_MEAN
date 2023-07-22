@@ -93,10 +93,10 @@ router.post('/authlogin', (req,res)=>{
         console.log(payload )
         let token = jwt.sign(payload,'secretKey');
         if(email==='admin2023@am.in' && pwd==='Admin2023'){
-            res.status(200).send({message:'Admin log in Successful',token:token,api:'/home'})
+            res.status(200).send({message:'Admin log in Successful',token:token,api:'/home',role:'admin'})
         }
         else if(email==='ath2023@am.in' && pwd=='Athi2023'){
-            res.status(200).send({message:'User log in Successful',token:token,api:'/user'})
+            res.status(200).send({message:'User log in Successful',token:token,api:'/user',role:'user'})
         }
     } 
     catch (error) {

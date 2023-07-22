@@ -6,6 +6,7 @@ import{HttpClient} from '@angular/common/http'
   providedIn: 'root'
 })
 export class AuthserviceService {
+  [x: string]: any;
   constructor(private http:HttpClient) { }
 
   loginuser(user:any){

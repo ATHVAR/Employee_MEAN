@@ -20,6 +20,7 @@ export class LoginComponent{
   loginuser(){
     this.authService.loginuser(this.user).subscribe((res:any)=>{
       localStorage.setItem('token',res.token);
+      localStorage.setItem('role',res.role);
       this.router.navigate([res.api]);
   
   })
